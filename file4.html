@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    </head>
+<body>
+
+    <h1 style="color: blue;">Student Registration Form</h1>
+
+    <form action="/submit-registration" method="POST">
+        
+        <fieldset style="background-color: bisque;">
+            <legend >Personal Information</legend>
+            
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            
+            <br>
+            
+            <div>
+                <label for="studentEmail">Email:</label>
+                <input type="email" id="studentEmail" name="studentEmail" required>
+            </div>
+            
+            <br>
+            
+            <div>
+                <label for="studentPhone">Phone Number:</label>
+                <input type="tel" id="studentPhone" name="studentPhone">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset style="background-color: bisque;">
+            <legend>Academic Information</legend>
+
+            <div>
+                <label for="major">Select Major:</label>
+                <select id="major" name="major" required>
+                    <option value="" disabled selected>-- Select a Major --</option>
+                    <option value="CS">Computer Science</option>
+                    <option value="EE">Electrical Engineering</option>
+                    <option value="BUS">Business Administration</option>
+                    <option value="ART">Fine Arts</option>
+                    <option value="LIT">Literature</option>
+                </select>
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <div>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the <a href="#">Terms and Conditions</a>.</label>
+        </div>
+
+        <br>
+        
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+        
+    </form>
+
+</body>
+</html>
