@@ -1,0 +1,133 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+img{
+    display: block;
+  margin: auto;
+  width: 30%;
+}
+
+/* Header Styling */
+.site-header {
+    background-color: #2c3e50;
+    color: rgb(212, 103, 103);
+    text-align: center;
+    padding: 20px; 
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #9c69b6;
+}
+
+.navbar ul {
+    list-style: none;          /* remove bullets */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;     /* horizontal menu */
+    margin: 5px 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: inherit;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+/* Hover effect (pseudo class) */
+.navbar a:hover {
+    background-color: #345c54;
+    border-radius: 6px 4px 5px 0px;
+    
+}
+
+/* Container and Cards (Box Model) */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;         /* center the content */
+    padding: 0 15px;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;    /* border property */
+    border-radius: 5px;
+    box-shadow: 0 0 10px red;
+}
+
+/* Headings */
+h2 {
+    color: #2c3e50;
+}
+
+/* Highlighted Text */
+.highlight {
+    background-color: #ffeaa7;
+    padding: 8px;
+    border-left: 8px solid #e17055;
+    border-right: 8px solid #1f17b3;
+}
+
+/* Feature List */
+.feature-list {
+    list-style-type: square;   /* list styling */
+    padding-left: 20px;
+}
+
+/* Image Styling */
+.demo-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* Table Styling */
+.css-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.css-table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.css-table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.css-table th {
+    background-color: #1acdda;
+    color: white;
+}
+
+/* Author Class Example */
+.author {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}

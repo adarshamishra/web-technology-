@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+   <meta charset="UTF-8"> 
+   <title>My First CSS Styled Web Page</title> 
+   <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+ 
+   <!-- Header Section --> 
+   <header class="site-header"> 
+       <h1 style="color: aqua;">My CSS Demo Page</h1> 
+       <p>Unit 2 – Introduction to Cascading Style Sheets</p> 
+   </header> 
+ 
+   <!-- Navigation Bar --> 
+   <nav class="navbar"> 
+       <ul> 
+           <li><a href="#home">Home</a></li> 
+           <li><a href="#about">About CSS</a></li> 
+           <li><a href="#features">Features</a></li> 
+           <li><a href="#table">CSS Table</a></li> 
+           <li><a href="#contact">Contact</a></li> 
+       </ul> 
+   </nav> 
+ 
+   <!-- Main Content --> 
+   <main class="container"> 
+ 
+       <!-- Home Section --> 
+       <section id="home" class="card"> 
+           <h2>Welcome</h2> 
+           <p> 
+               This is a simple web page created using HTML and styled with CSS. 
+               It shows text styling, background, box model, navigation bar, 
+               images, lists, and tables. 
+           </p> 
+           <img src="CSS.png" alt="Sample Image" class="demo-image"> 
+       </section> 
+ 
+       <!-- About CSS Section --> 
+       <section id="about" class="card"> 
+           <h2>What is CSS?</h2> 
+           <p> 
+               CSS stands for <strong>Cascading Style Sheets</strong>. It controls 
+the 
+               look and feel of web pages. With CSS, we can change colours, fonts, 
+               spacing, and the layout of elements on the page. 
+           </p> 
+ 
+           <p class="highlight"> 
+               HTML is for structure. CSS is for presentation. 
+           </p> 
+       </section> 
+ 
+       <!-- Features Section with List --> 
+       <section id="features" class="card"> 
+           <h2>CSS Features</h2> 
+           <ul class="feature-list"> 
+               <li>Controls colours and fonts</li> 
+               <li>Manages spacing using margin and padding</li> 
+               <li>Helps create layouts with box model and positioning</li> 
+               <li>Makes navigation bars and menus</li> 
+               <li>Can create hover effects using pseudo classes</li> 
+           </ul> 
+       </section> 
+ 
+       <!-- Table Section --> 
+       <section id="table" class="card"> 
+           <h2>Example: CSS Properties Table</h2> 
+           <table class="css-table"> 
+               <thead> <!--The <thead> tag in HTML is used to group the header 
+content within an HTML table.--> 
+                   <tr> 
+                       <th>Property</th> 
+                       <th>Use</th> 
+                   </tr> 
+               </thead> 
+               <tbody> 
+                   <tr> 
+                       <td>color</td> 
+                       <td>Sets the text colour</td> 
+                   </tr> 
+                   <tr> 
+                       <td>background-color</td> 
+                       <td>Sets the background colour</td> 
+                   </tr> 
+                   <tr> 
+                       <td>margin</td> 
+                       <td>Creates space outside the border</td> 
+                   </tr> 
+                   <tr> 
+                       <td>padding</td> 
+                       <td>Creates space inside the border</td> 
+                   </tr> 
+                   <tr> 
+                       <td>border</td> 
+                       <td>Adds a border around the element</td> 
+                   </tr> 
+               </tbody> 
+           </table> 
+       </section> 
+ 
+       <!-- Contact Section --> 
+       <section id="contact" class="card"> 
+           <h2>Contact</h2> 
+           <p> 
+               Created by: <span class="author">Your Name</span><br> 
+               Course: C-11 Web Technologies – Unit 2 CSS Demo 
+           </p> 
+       </section> 
+ 
+   </main> 
+ 
+   <!-- Footer --> 
+   <footer class="site-footer"> 
+       <p>&copy; 2025 My CSS Demo Page</p> 
+   </footer> 
+ 
+</body> 
+</html>
