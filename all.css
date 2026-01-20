@@ -1,0 +1,26 @@
+.top
+{
+     width: 97%;
+   height: 250px;
+    padding: 20px;
+    font-style: italic;
+    border-radius: 20px;
+text-align: center;
+    background-color:#ccff99; 
+    border-style: ridge;
+    
+    
+}
+#photo{
+    float: left;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 10px;
+}
+#photo:hover {
+    transform: scale(1.3); 
+    transition: transform 0.3s ease;
+    
+}
